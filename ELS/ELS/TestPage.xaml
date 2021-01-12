@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ELS.TestPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Picker x:Name="districtPicker" 
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedIndexChanged="districtPicker_SelectedIndexChanged"
+                    SelectedItem="{Binding SelectedDistrict}"/>
+            <Picker x:Name="subDistrictPicker"
+                    ItemDisplayBinding="{Binding Name}" 
+                    SelectedIndexChanged="subDistrictPicker_SelectedIndexChanged"
+                    SelectedItem="{Binding SelectedSubDistrict}"/>
+
+            <Picker x:Name="housePicker"
+                    ItemDisplayBinding="{Binding HouseNumber}"
+                    SelectedIndexChanged="housePicker_SelectedIndexChanged"
+                    SelectedItem="{Binding SelectedHouse}" 
+                    Title="{Binding Message}"/>
+
+            <Label Text="{Binding ErrMessage}"
+                   TextColor="Red" />
+
+            <Button Text="OPEN GOOGLE MAP"
+                    Clicked="Button_Clicked"
+                    IsEnabled="{Binding CanClick}">
+            </Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

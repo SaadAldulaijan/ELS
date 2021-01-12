@@ -1,38 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:ELS.ViewModels"
              x:Class="ELS.MainPage">
 
-    <ContentPage.BindingContext>
-        <local:MainPageViewModel />
-    </ContentPage.BindingContext>
-
     <StackLayout>
-        <Image Source="ELS.png"/> 
-
-        <StackLayout>
-            <Picker Title="Select location"
-                    ItemsSource="{Binding Locations}"
+        <Image Source="ELS.png"/>
+        <Picker x:Name="districtPicker" 
                     ItemDisplayBinding="{Binding Name}"
-                    SelectedItem="{Binding SelectedLocation}"
-                    Margin="5">
-            </Picker>
+                    SelectedIndexChanged="districtPicker_SelectedIndexChanged"
+                    SelectedItem="{Binding SelectedDistrict}"/>
+        <Picker x:Name="subDistrictPicker"
+                    ItemDisplayBinding="{Binding Name}" 
+                    SelectedIndexChanged="subDistrictPicker_SelectedIndexChanged"
+                    SelectedItem="{Binding SelectedSubDistrict}"/>
 
-            <Picker x:Name="subDistinct"
-                    Title="Select Sub distinct"
-                    ItemsSource="{Binding SubLocation}"
-                    ItemDisplayBinding="{Binding SubLocation.Name}"
-                    SelectedItem="{Binding SelectedSubLocation}"
-                    Margin="5">
-            </Picker>
-        </StackLayout>
+        <Picker x:Name="housePicker"
+                    ItemDisplayBinding="{Binding HouseNumber}"
+                    SelectedIndexChanged="housePicker_SelectedIndexChanged"
+                    SelectedItem="{Binding SelectedHouse}" 
+                    Title="{Binding Message}"/>
 
-        <Button Command="{Binding OpenGoogleMap}"
-                Text="OPEN GOOGLE MAP"
-                TextColor="White"
-                BackgroundColor="#009FDF"
-                Margin="5">
+        <Label Text="{Binding ErrMessage}"
+                   TextColor="Red" />
+
+        <Button Text="OPEN GOOGLE MAP"
+                    Clicked="Button_Clicked"
+                    IsEnabled="{Binding CanClick}"
+                    BackgroundColor="#009FDF"
+                    Margin="5">
         </Button>
     </StackLayout>
 </ContentPage>

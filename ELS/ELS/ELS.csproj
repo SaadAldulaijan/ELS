@@ -11,12 +11,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Data\District.json" />
+    <None Remove="Data\House.json" />
+    <None Remove="Data\SubDistrict.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data\District.json" />
+    <EmbeddedResource Include="Data\SubDistrict.json" />
+    <EmbeddedResource Include="Data\House.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\" />
+    <EmbeddedResource Update="TestPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

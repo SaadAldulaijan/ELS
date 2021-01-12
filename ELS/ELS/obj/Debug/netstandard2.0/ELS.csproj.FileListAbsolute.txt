@@ -12,3 +12,4 @@ C:\temp\repo\ELS\ELS\ELS\obj\Debug\netstandard2.0\XamlC.stamp
 C:\temp\repo\ELS\ELS\ELS\obj\Debug\netstandard2.0\ELS.dll
 C:\temp\repo\ELS\ELS\ELS\obj\Debug\netstandard2.0\ref\ELS.dll
 C:\temp\repo\ELS\ELS\ELS\obj\Debug\netstandard2.0\ELS.pdb
+C:\temp\repo\ELS\ELS\ELS\obj\Debug\netstandard2.0\TestPage.xaml.g.cs

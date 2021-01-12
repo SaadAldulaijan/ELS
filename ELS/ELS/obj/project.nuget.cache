@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kRfBQ/jxC+W1IwUriY4vQI/I0GtryNjIhYFgxoPKsf8zvkTgAboEAuySX4MrjC6nRPGBkyfJnRmXb+ll+4YxNg==",
+  "dgSpecHash": "DEvRRtq6lKaF5MwFmzBa3bMGeZ4F/cWfEcFMRPD1eM+IrWCfUU5ND/Io2hNwp6QUVbBlCypEsWo+n3R2LiBPzA==",
   "success": true,
   "projectFilePath": "C:\\temp\\repo\\ELS\\ELS\\ELS\\ELS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SABIC\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\SABIC\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\SABIC\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\SABIC\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\SABIC\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
