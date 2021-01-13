@@ -3,6 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <Authors>Saad Aldulaijan</Authors>
+    <Company>Ministry of National Guard - Health Affairs</Company>
+    <Product>Emergency Location System</Product>
+    <Description>Developed by Saad Aldulaijan - Communication department. 
+This application is used by NGHA staff only.</Description>
+    <Copyright>Saad Aldulaijan</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -13,11 +19,13 @@
   <ItemGroup>
     <None Remove="Data\District.json" />
     <None Remove="Data\House.json" />
+    <None Remove="Data\SubDistrict - Copy.json" />
     <None Remove="Data\SubDistrict.json" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Data\District.json" />
+    <EmbeddedResource Include="Data\SubDistrict - Copy.json" />
     <EmbeddedResource Include="Data\SubDistrict.json" />
     <EmbeddedResource Include="Data\House.json" />
   </ItemGroup>

@@ -2,32 +2,56 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ELS.MainPage">
+    <ScrollView>
 
-    <StackLayout>
-        <Image Source="ELS.png"/>
-        <Picker x:Name="districtPicker" 
-                    ItemDisplayBinding="{Binding Name}"
-                    SelectedIndexChanged="districtPicker_SelectedIndexChanged"
-                    SelectedItem="{Binding SelectedDistrict}"/>
-        <Picker x:Name="subDistrictPicker"
-                    ItemDisplayBinding="{Binding Name}" 
-                    SelectedIndexChanged="subDistrictPicker_SelectedIndexChanged"
-                    SelectedItem="{Binding SelectedSubDistrict}"/>
+        <StackLayout Margin="13">
+            <StackLayout>
+                <Image Aspect="AspectFit" Source="ELS.png"/>
+            </StackLayout>
+            <StackLayout Opacity="0.7">
+                <Picker x:Name="districtPicker" 
+                        TitleColor="#939598"
+                        Title="Select District"
+                        ItemDisplayBinding="{Binding Name}"
+                        SelectedIndexChanged="districtPicker_SelectedIndexChanged"
+                        SelectedItem="{Binding SelectedDistrict}"
+                        Margin="6"/>
 
-        <Picker x:Name="housePicker"
-                    ItemDisplayBinding="{Binding HouseNumber}"
-                    SelectedIndexChanged="housePicker_SelectedIndexChanged"
-                    SelectedItem="{Binding SelectedHouse}" 
-                    Title="{Binding Message}"/>
+                <Picker x:Name="subDistrictPicker"
+                        Title="Select Sub-District"
+                        TitleColor="#939598"
+                        ItemDisplayBinding="{Binding Name}" 
+                        SelectedIndexChanged="subDistrictPicker_SelectedIndexChanged"
+                        SelectedItem="{Binding SelectedSubDistrict}"
+                        Margin="6"/>
 
-        <Label Text="{Binding ErrMessage}"
-                   TextColor="Red" />
+                <Picker x:Name="housePicker"
+                        ItemDisplayBinding="{Binding HouseNumber}"
+                        SelectedIndexChanged="housePicker_SelectedIndexChanged"
+                        SelectedItem="{Binding SelectedHouse}" 
+                        Title="{Binding Message}"
+                        TitleColor="#939598"
+                        Margin="6"/>
 
-        <Button Text="OPEN GOOGLE MAP"
-                    Clicked="Button_Clicked"
-                    IsEnabled="{Binding CanClick}"
-                    BackgroundColor="#009FDF"
-                    Margin="5">
-        </Button>
-    </StackLayout>
+                <Label Text="{Binding ErrMessage}"
+                       TextColor="Red" />
+
+                <Button Text="OPEN GOOGLE MAP"
+                        Clicked="Button_Clicked"
+                        IsEnabled="{Binding CanClick}"
+                        BackgroundColor="#009FDF"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        Margin="5">
+                </Button>
+            </StackLayout>
+
+            <StackLayout Opacity="0.6" VerticalOptions="EndAndExpand">
+                <Label TextColor="#4D4D4D"
+                       FontSize="Micro"
+                       Text="Ministry of National Guard - Health Affairs &#10;Imam Abdulrahman Bin Faisal Hospital - Dammam &#10;Developed by Communication Department " 
+                       HorizontalTextAlignment="Center"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

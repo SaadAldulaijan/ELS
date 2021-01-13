@@ -55,36 +55,6 @@
     "DistrictId": 1
   },
   {
-    "Id": 12,
-    "Name": "Badr-12",
-    "DistrictId": 1
-  },
-  {
-    "Id": 13,
-    "Name": "Badr-13",
-    "DistrictId": 1
-  },
-  {
-    "Id": 14,
-    "Name": "Badr-14",
-    "DistrictId": 1
-  },
-  {
-    "Id": 15,
-    "Name": "Badr-15",
-    "DistrictId": 1
-  },
-  {
-    "Id": 16,
-    "Name": "Badr-16",
-    "DistrictId": 1
-  },
-  {
-    "Id": 17,
-    "Name": "Badr-17",
-    "DistrictId": 1
-  },
-  {
     "Id": 18,
     "Name": "Hittin-01",
     "DistrictId": 2
@@ -157,36 +127,6 @@
   {
     "Id": 32,
     "Name": "Ohud-11",
-    "DistrictId": 3
-  },
-  {
-    "Id": 33,
-    "Name": "Ohud-12",
-    "DistrictId": 3
-  },
-  {
-    "Id": 34,
-    "Name": "Ohud-13",
-    "DistrictId": 3
-  },
-  {
-    "Id": 35,
-    "Name": "Ohud-14",
-    "DistrictId": 3
-  },
-  {
-    "Id": 36,
-    "Name": "Ohud-15",
-    "DistrictId": 3
-  },
-  {
-    "Id": 37,
-    "Name": "Ohud-16",
-    "DistrictId": 3
-  },
-  {
-    "Id": 38,
-    "Name": "Ohud-17",
     "DistrictId": 3
   }
 ]

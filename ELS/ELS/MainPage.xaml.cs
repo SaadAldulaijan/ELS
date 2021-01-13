@@ -18,7 +18,7 @@ namespace ELS
         #region INotify 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        protected void OnPropertyChanged(string propertyName)
+        protected override void OnPropertyChanged(string propertyName)
         {
             if (PropertyChanged != null)
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
@@ -51,8 +51,18 @@ namespace ELS
 
         public House SelectedHouse
         {
-            get { return _selectedHouse; }
-            set { _selectedHouse = value; }
+            get 
+            {
+                return _selectedHouse; 
+            }
+            set 
+            {
+                if (SelectedHouse == null)
+                {
+                    CanClick = false;
+                }
+                _selectedHouse = value; 
+            }
         }
 
 
@@ -155,7 +165,7 @@ namespace ELS
                 }
                 else
                 {
-                    Message = null;
+                    Message = "Select House";
                 }
                 housePicker.ItemsSource = dataSource;
             }
@@ -165,6 +175,8 @@ namespace ELS
         private void districtPicker_SelectedIndexChanged(object sender, EventArgs e)
         {
             PopulateSubDistricts(SelectedDistrict.Id);
+            // TODO: there is a bug here.
+            // when i select district for the second time, button is enabled
         }
 
         // Selected Sub-District Event

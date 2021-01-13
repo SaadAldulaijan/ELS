@@ -1,0 +1,192 @@
+[
+  {
+    "Id": 1,
+    "Name": "Badr-01",
+    "DistrictId": 1
+  },
+  {
+    "Id": 2,
+    "Name": "Badr-02",
+    "DistrictId": 1
+  },
+  {
+    "Id": 3,
+    "Name": "Badr-03",
+    "DistrictId": 1
+  },
+  {
+    "Id": 4,
+    "Name": "Badr-04",
+    "DistrictId": 1
+  },
+  {
+    "Id": 5,
+    "Name": "Badr-05",
+    "DistrictId": 1
+  },
+  {
+    "Id": 6,
+    "Name": "Badr-06",
+    "DistrictId": 1
+  },
+  {
+    "Id": 7,
+    "Name": "Badr-07",
+    "DistrictId": 1
+  },
+  {
+    "Id": 8,
+    "Name": "Badr-08",
+    "DistrictId": 1
+  },
+  {
+    "Id": 9,
+    "Name": "Badr-09",
+    "DistrictId": 1
+  },
+  {
+    "Id": 10,
+    "Name": "Badr-10",
+    "DistrictId": 1
+  },
+  {
+    "Id": 11,
+    "Name": "Badr-11",
+    "DistrictId": 1
+  },
+  {
+    "Id": 12,
+    "Name": "Badr-12",
+    "DistrictId": 1
+  },
+  {
+    "Id": 13,
+    "Name": "Badr-13",
+    "DistrictId": 1
+  },
+  {
+    "Id": 14,
+    "Name": "Badr-14",
+    "DistrictId": 1
+  },
+  {
+    "Id": 15,
+    "Name": "Badr-15",
+    "DistrictId": 1
+  },
+  {
+    "Id": 16,
+    "Name": "Badr-16",
+    "DistrictId": 1
+  },
+  {
+    "Id": 17,
+    "Name": "Badr-17",
+    "DistrictId": 1
+  },
+  {
+    "Id": 18,
+    "Name": "Hittin-01",
+    "DistrictId": 2
+  },
+  {
+    "Id": 19,
+    "Name": "Hittin-02",
+    "DistrictId": 2
+  },
+  {
+    "Id": 20,
+    "Name": "Hittin-03",
+    "DistrictId": 2
+  },
+  {
+    "Id": 21,
+    "Name": "Hittin-04",
+    "DistrictId": 2
+  },
+  {
+    "Id": 22,
+    "Name": "Ohud-01",
+    "DistrictId": 3
+  },
+  {
+    "Id": 23,
+    "Name": "Ohud-02",
+    "DistrictId": 3
+  },
+  {
+    "Id": 24,
+    "Name": "Ohud-03",
+    "DistrictId": 3
+  },
+  {
+    "Id": 25,
+    "Name": "Ohud-04",
+    "DistrictId": 3
+  },
+  {
+    "Id": 26,
+    "Name": "Ohud-05",
+    "DistrictId": 3
+  },
+  {
+    "Id": 27,
+    "Name": "Ohud-06",
+    "DistrictId": 3
+  },
+  {
+    "Id": 28,
+    "Name": "Ohud-07",
+    "DistrictId": 3
+  },
+  {
+    "Id": 29,
+    "Name": "Ohud-08",
+    "DistrictId": 3
+  },
+  {
+    "Id": 30,
+    "Name": "Ohud-09",
+    "DistrictId": 3
+  },
+  {
+    "Id": 31,
+    "Name": "Ohud-10",
+    "DistrictId": 3
+  },
+  {
+    "Id": 32,
+    "Name": "Ohud-11",
+    "DistrictId": 3
+  },
+  {
+    "Id": 33,
+    "Name": "Ohud-12",
+    "DistrictId": 3
+  },
+  {
+    "Id": 34,
+    "Name": "Ohud-13",
+    "DistrictId": 3
+  },
+  {
+    "Id": 35,
+    "Name": "Ohud-14",
+    "DistrictId": 3
+  },
+  {
+    "Id": 36,
+    "Name": "Ohud-15",
+    "DistrictId": 3
+  },
+  {
+    "Id": 37,
+    "Name": "Ohud-16",
+    "DistrictId": 3
+  },
+  {
+    "Id": 38,
+    "Name": "Ohud-17",
+    "DistrictId": 3
+  }
+]

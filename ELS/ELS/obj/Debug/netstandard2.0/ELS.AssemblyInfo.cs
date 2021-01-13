@@ -11,11 +11,14 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ELS")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Ministry of National Guard - Health Affairs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Saad Aldulaijan")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Developed by Saad Aldulaijan - Communication department. \r\nThis application is us" +
+    "ed by NGHA staff only.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("ELS")]
+[assembly: System.Reflection.AssemblyProductAttribute("Emergency Location System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ELS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
