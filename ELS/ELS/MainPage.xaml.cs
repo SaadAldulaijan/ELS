@@ -204,8 +204,15 @@ namespace ELS
         // Navigate to Google Map by Selected House
         private void Button_Clicked(object sender, EventArgs e)
         {
-            MapUrl = SelectedHouse.Location;
-            Launcher.OpenAsync(MapUrl).Wait();
+            if (SelectedHouse == null)
+            {
+                ErrMessage = "Please select a specific house";
+            }
+            else
+            {
+                MapUrl = SelectedHouse.Location;
+                Launcher.OpenAsync(MapUrl).Wait();
+            }
         }
     }
 }
