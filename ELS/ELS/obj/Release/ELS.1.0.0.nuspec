@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ELS</id>
+    <version>1.0.0</version>
+    <authors>Saad Aldulaijan</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Developed by Saad Aldulaijan - Communication department. 
+This application is used by NGHA staff only.</description>
+    <copyright>Saad Aldulaijan</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Essentials" version="1.6.0" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Forms" version="5.0.0.1874" exclude="Build,Analyzers" />
+        <dependency id="sqlite-net-pcl" version="1.7.335" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\temp\repo\ELS\ELS\ELS\bin\Release\netstandard2.0\ELS.dll" target="lib\netstandard2.0\ELS.dll" />
+  </files>
+</package>

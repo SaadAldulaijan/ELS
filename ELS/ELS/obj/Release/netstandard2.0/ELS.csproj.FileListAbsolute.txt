@@ -1,0 +1,15 @@
+C:\temp\repo\ELS\ELS\ELS\bin\Release\netstandard2.0\ELS.deps.json
+C:\temp\repo\ELS\ELS\ELS\bin\Release\netstandard2.0\ELS.dll
+C:\temp\repo\ELS\ELS\ELS\bin\Release\netstandard2.0\ref\ELS.dll
+C:\temp\repo\ELS\ELS\ELS\bin\Release\netstandard2.0\ELS.pdb
+C:\temp\repo\ELS\ELS\ELS\obj\Release\netstandard2.0\ELS.csprojAssemblyReference.cache
+C:\temp\repo\ELS\ELS\ELS\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\temp\repo\ELS\ELS\ELS\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\temp\repo\ELS\ELS\ELS\obj\Release\netstandard2.0\TestPage.xaml.g.cs
+C:\temp\repo\ELS\ELS\ELS\obj\Release\netstandard2.0\ELS.AssemblyInfoInputs.cache
+C:\temp\repo\ELS\ELS\ELS\obj\Release\netstandard2.0\ELS.AssemblyInfo.cs
+C:\temp\repo\ELS\ELS\ELS\obj\Release\netstandard2.0\ELS.csproj.CoreCompileInputs.cache
+C:\temp\repo\ELS\ELS\ELS\obj\Release\netstandard2.0\XamlC.stamp
+C:\temp\repo\ELS\ELS\ELS\obj\Release\netstandard2.0\ELS.dll
+C:\temp\repo\ELS\ELS\ELS\obj\Release\netstandard2.0\ref\ELS.dll
+C:\temp\repo\ELS\ELS\ELS\obj\Release\netstandard2.0\ELS.pdb
